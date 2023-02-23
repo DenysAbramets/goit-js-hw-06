@@ -22,3 +22,17 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  background-color: rgb(148, 212, 20);
+  padding: 30px;
+}
+
+.gallery__item {
+  list-style: none;
+  text-align: center;
+}
+
+.gallery-item:not(:last-child) {
+  margin-bottom: 30px;
+}
