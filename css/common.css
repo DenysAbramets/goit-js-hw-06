@@ -24,7 +24,6 @@ button {
 }
 
 .gallery {
-  /* background-color: rgb(148, 212, 20); */
   padding: 30px;
   display: flex;
   justify-content: space-between;
