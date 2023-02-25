@@ -31,7 +31,6 @@ button {
 
 .gallery__item {
   list-style: none;
-  text-align: center;
 }
 
 .gallery__item:not(:last-child) {
