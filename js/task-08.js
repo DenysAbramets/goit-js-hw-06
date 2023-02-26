@@ -18,7 +18,8 @@ formEl.addEventListener('submit' , onSubmitForm )
 
 
     if(email === "" || password === "" ){
-        alert('all fields must be filled out!')
+        alert('all fields must be filled out!');
+        return;
     }else{
         console.log(formData);
     };
